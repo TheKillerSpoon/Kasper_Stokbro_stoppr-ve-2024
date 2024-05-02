@@ -1,0 +1,59 @@
+/* Desktop */
+#nav{
+    height: 120px;
+    color: var(--light-cream);
+    background-color: var(--black);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav section{
+    margin: 0 60px 0 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav ul{
+    display: flex;
+    gap: 23px;
+    list-style-type: none;
+}
+
+#nav a{
+    text-decoration: none;  
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: var(--light-cream);
+}
+
+#nav h2{
+    margin-right: 5%;
+}
+/* ^Desktop^ */
+
+
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    body{
+        background-color: tomato;
+    }
+}
+/* ^Tablet^ */
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+    body{
+        background-color: cyan;
+    }
+}
+/* ^Mobile^ */
