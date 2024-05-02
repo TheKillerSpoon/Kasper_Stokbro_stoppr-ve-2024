@@ -28,11 +28,17 @@
     text-decoration: none;  
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    font-size: 16px;
     color: var(--light-cream);
 }
 
 #nav h2{
     margin-right: 5%;
+    font-weight: 700;
+}
+
+#nav i{
+    font-size: 24px;
 }
 /* ^Desktop^ */
 
